@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jdickamazz.github.io/jdickamaaz.github.io/sitemap.xml
+Sitemap: https://jdickamazz.github.io/shourovj2.github.io/sitemap.xml
