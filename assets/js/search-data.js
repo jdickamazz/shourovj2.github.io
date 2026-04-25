@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Curriculum vitae, experience, awards, publications, and selected projects.",
+          description: "Download my full curriculum vitae as a PDF.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/shourovj2.github.io/cv/";
@@ -146,6 +146,34 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/shourovj", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=wQsEs6YAAAAJ&hl=en", "_blank");
+        },
+      },{
+        id: 'social-kaggle',
+        title: 'Kaggle',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.kaggle.com/shourovj", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0005-7105-4035", "_blank");
+        },
+      },{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/shourovj2.github.io/assets/pdf/CV_Shourov_Joarder.pdf", "_blank");
         },
       },{
       id: 'light-theme',
