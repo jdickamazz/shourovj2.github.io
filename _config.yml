@@ -19,8 +19,8 @@ keywords: shourov joarder, multimodal ai, vlm, machine learning, medical imaging
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: "https://jdickamazz.github.io" # Updated to your username
-baseurl: "/jdickamaaz.github.io"                   # Empty because your repo is shourovj.github.io
+url: "https://jdickamazz.github.io"
+baseurl: "/shourovj2.github.io"
 last_updated: true
 back_to_top: true
 
