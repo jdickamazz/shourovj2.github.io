@@ -1,0 +1,101 @@
+
+
+===== PAGE 1 =====
+
+Shourov Joarder
+joardershourov60@gmail.com | shourovj | shourovj | shourovj | shourovj
+Bangladesh
+Feb 2020 – March 2025
+Education
+Bangladesh University of Engineering & Technology (BUET) B.Sc. in Electrical and Electronic Engineering Major : Communication and Signal Processing (CSP)
+CGPA: 3.88/4.00 (2nd in CSP major )
+Relevant Courses: Artificial Intelligence and Machine Learning | Digital Image Processing I | Computer Programming |
+Linear Algebra | Probability and Statistics | Random Signals and Processes | Microprocessors and Embedded System | Digital
+Signal Processing | Control Systems | Digital Electronics
+Research Interests
+Computer Vision | Multimodal LLM (VLMs) | Fairness and Safety of VLMs | Medical Imaging | Autonomous Vehicle
+Publications
+1. Shourov Joader, T. Talukder, K. Hasan, “Multi-Stage Residual-Aware Unsupervised Deep Learning Framework for
+Consistent Ultrasound Strain Elastography,” Ready for Submission ( Preprint).
+TLDR: Developed a multi-stage unsupervised spatio-temporal training framework for deep learning based ultrasound
+strain imaging. This work has been validated for open source simulation, in vivo and our own clinical datasets.
+2. S. Hasan, Shourov Joader, A. Nayem, H. Hasan, and S. A. Fattah, “Multilingual Voice-Controlled Smart Wheelchair
+with Advanced Features,” Published at IEEE ECCE. (DOI: 10.1109/ECCE64574.2025.11013785)
+TLDR: Developed a full scale wheelchair integrated with multilingual voice-control, collision detection and avoidance.
+3. A. Dhar, D. Sikder, A. Shovon, and Shourov Joarder, “Skin Cancer Semantic Segmentation,” Published at IEEE ECCE.
+(DOI: 10.1109/ECCE64574.2025.11013785).
+TLDR: Unet-based Stacked Hourglass model converts cartesian image to polar image which is then fed to a TransUnet
+model for estimating the semantic segmentation on skin cancer ISIC dataset.
+Research Experiences
+Undergraduate Thesis Student, EEE, BUET Supervisor : Dr. Kamrul Hasan
+Multi-Stage Unsupervised Sequential Deep Learning Method for Ultrasound Strain Elastography
+A medical imaging technique that determines the strain field by tracking displacements between pre- and post-compressed
+ultrasound RF frames to detect tumors/lesions in the examined tissue by their strain.
+• Developed a novel unsupervised sequential network consisting of a novel Contextual-Aware Feature Encoder, a novel
+TriCrossAttention, a Cross-Attentive Sequential Decoder, and proposed a novel multi-stage framework MUSSE-Net
+for Displacement Field and Strain Estimation in Strain Elastography, and implemented this in Pytorch.
+• The proposed network beats state-of-the-art unsupervised ReUSENet, USENet(implemented) in terms of SNR, CNR,
+NRMSE metrics, and also improves the strain image quality by enhancing the lesion SNR.
+Ongoing Researches
+• Unsupervised Reinforcement Learning for LLM Reasoning Feb 2026 - Present
+This work focuses on using intrinsic reward signals to guide reasoning paths to mitigate mode collapse and improve
+self-correction of LLMs for better decision-making agents with limited supervision.
+• Autonomous Driving with Efficient VLM-based reasoning with LoRA Distilltion Github
+The goal of this research is to develop a robust and explainable system for Autonomous Driving (AD) for real time
+application. I have implemented a Trajectory and path planning for AD with explainability and reasoning. Initially, used
+nexar-dashcam AD dataset and opensource VLM model (Qwen).
+• Debiasing and Explainability of VLM July 2025 - Present
+Mitigating demographic bias in VLM with explainability at inference time. Most debiasing methods use SFT, but our goal
+is to develop an unsupervised Test-Time debiasing method to overcome the challenges of scarcity of data.
+Mar 2024 - Mar 2025
+1/2
+
+===== PAGE 2 =====
+
+June 2025 - Present
+Apr 2025 - Present
+2020, 2021, 2023
+2021, 2022
+2021, 2022
+Work Experience
+Adjunct Lecturer, Dept. of CSE, BRAC University. Courses Taught: Image Processing (CSE428), Digital Electronics (CSE350)
+Machine Learning Engineer (Part-time), ACI Ltd. Ongoing Projects
+• Medical-ExpertVLM with explainability and personalized assistance for doctors and medical students.
+• Developing a robust OCR and annotation tool using state-of-the art Qwen2.5VL-VLM to extract medicine details and
+bank cheque details from images of a handwritten prescription and cheques.
+• Developing an AI-Assisted System for Drug Discovery and Development
+Honors and Awards
+• University Merit Scholarship (3 times) • University Dean’s List Scholarship (2 times) • University Stipend (2 times) • 1st Runner-Up of Undergraduate Project Idea Contest at 25th ICCIT 2022, Bangladesh. [Certificate]
+• 57th in the public leaderboard of DL Sprint - BUET CSE Fest 2024, Bengali AI Math Olympiad a LLM based competition.
+• Best Notebook Award at the DL Sprint - BUET CSE Fest 2022, Bengali ASR Competition.
+Selected Projects
+Coding Google’s PaliGemma VLM from Scratch Github
+Implemented Google’s opensource PaliGemma Vision Language Model (VLM) from scratch. Implemented the SigLip
+vision encoder, KV-cache and the GemmaLM with the multimodal projector. This project was inspired by Umair Jamil’s
+paligemma open-source project.
+Autonomous Inventory Robot Github
+Developed an autonomous robotic system capable of executing real-time voice commands to identify, retrieve, and transport
+specified objects. The system integrates Google Speech API based speech recognition, YOLOv5-s for real-time object
+detection with robotic arm manipulation for precise object grasping with a Rasphberry-pi as the processor. Following
+successful acquisition, the object is returned to a predefined base location using a Line Following Robot (LFR) navigation
+system.
+Deep-Learning-based-Breast-Cancer-Classification-Using-VGGIN Github
+Trained the VGGIN model—a custom deep learning architecture that integrates VGG-19 with the Inception module, on
+the BreakHis histopathology dataset. Achieved a test accuracy of 99.628%, demonstrating the model’s effectiveness in
+classifying breast cancer subtypes from histopathological images.
+Voice Controlled Wheelchair for Disabled Patients Github
+Developed a full scale voice-controlled wheelchair for physically impaired people. GMM-based trained VoiceRecognitionV3
+module takes voice commands from the patients in any language and in any accent and moves accordingly. In addition, the
+wheelchair collision avoidance and emergency help feature.[Video].
+Extracting Audio from Muted Video Github
+The main goal of this project was to extract the audio signal from a muted video using signal processing methods in
+MATLAB. The local and global pixel motions were captured using Complex Steerable Pyramid decomposition. This was
+originally a project by Abe Davis, MIT [Visual Microphone].
+Skills
+ML, DL Framework Programming Simulations and Tools Frontend Backend PyTorch, TensorFlow, Transformers, vLLM, LangChain
+Python, MATLAB, C/C++, Linux, Verilog, Assembly, LaTeX, Git
+Raspberry Pi, Arduino, Proteus, Pspice, Quartus, Keil
+FastAPI, Flusk, Gradio, Android Studio, Kotlin (Basic).
+Standardized Test Scores
+TOEFL 102, [Reading (26), Listening (26), Speaking (24), Writing (26)]
+2/2
