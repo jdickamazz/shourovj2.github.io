@@ -1,12 +1,12 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 7
-cv_pdf: /assets/pdf/CV_Shourov_Joarder.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: Curriculum vitae, experience, awards, publications, and selected projects.
-toc:
-  sidebar: left
+description: Download my full curriculum vitae as a PDF.
 ---
+
+<a href="{{ '/assets/pdf/CV_Shourov_Joarder.pdf' | relative_url }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+  <i class="fa-solid fa-file-pdf"></i> Download CV (PDF)
+</a>

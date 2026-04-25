@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Bangladesh</p>
-    <p>Machine Learning, VLMs, Medical AI</p>
+    <p>Reinforcement Learning, VLMs, Mulimodal Learning</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,14 +28,14 @@ latest_posts:
 
 With the recent advancements in multimodal AI, I am passionate about building real-world systems that are not only accurate, but also reliable, fair, and explainable.
 
-My work focuses on fairness, generalization, and reasoning in multimodal foundation models, especially in high-stakes domains such as healthcare and autonomous systems. I have a background in Electrical and Electronic Engineering and practical experience building and deploying computer vision and VLM-based systems.
+My work focuses on RL, Reasoning in multimodal foundation models, especially in real-time systems. I have a background in Electrical and Electronic Engineering and practical experience building and deploying computer vision and LLM and VLM-based systems.
 
 ## Interests
 
 - Multimodal AI and Vision-Language Models
-- Fairness and Safety of VLMs
-- Medical Imaging and Clinical AI Systems
-- Autonomous Driving with Reasoning-Centric VLM Pipelines
+- Reinforcement Learning
+- World Models
+- Autonomous Driving with Reasoning-Centric MLLM Pipelines
 - Test-time adaptation and robust inference
 
 ## Current Focus
