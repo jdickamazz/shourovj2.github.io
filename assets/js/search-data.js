@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-experience",
           title: "experience",
-          description: "Academic, research, and industry experience.",
+          description: "Research, industry, academic, open-source, and leadership experience.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/shourovj2.github.io/experience/";
