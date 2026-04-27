@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards
 description: Awards, scholarships, recognitions, and competition results.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 ## Scholarships and Academic Recognition

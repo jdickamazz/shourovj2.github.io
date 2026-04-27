@@ -113,6 +113,37 @@
       }
     }
   }
+
+  .navbar-socials {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.4rem;
+
+    a {
+      padding: 0 0.35rem;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    i,
+    i::before {
+      font-size: 0.95rem;
+      color: var(--global-text-color);
+      transition: color 0.2s ease-in-out;
+    }
+
+    a:hover i,
+    a:hover i::before {
+      color: var(--global-theme-color);
+    }
+
+    img,
+    svg {
+      width: 0.95rem;
+      height: 0.95rem;
+    }
+  }
 }
 
 .navbar-toggler {
