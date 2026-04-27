@@ -31,8 +31,8 @@ ninja.data = [{
             window.location.href = "/shourovj2.github.io/experience/";
           },
         },{id: "nav-awards",
-          title: "awards",
-          description: "Awards, scholarships, recognitions, and competition results.",
+          title: "Awards",
+          description: "Awards, scholarships, competitions, and recognitions.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/shourovj2.github.io/awards/";
@@ -45,7 +45,7 @@ ninja.data = [{
             window.location.href = "/shourovj2.github.io/cv/";
           },
         },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
