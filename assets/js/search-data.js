@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/shourovj2.github.io/projects/";
           },
         },{id: "nav-experience",
-          title: "experience",
+          title: "Experience",
           description: "Research, industry, academic, open-source, and leadership experience.",
           section: "Navigation",
           handler: () => {
