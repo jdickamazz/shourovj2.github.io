@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /experience/
-title: experience
+title: Experience
 description: Research, industry, academic, open-source, and leadership experience.
 nav: true
 nav_order: 4
@@ -94,33 +94,6 @@ toc:
       <ul>
         <li><strong>CSE428 — Image Processing</strong>: classical and deep-learning image processing for undergraduates.</li>
         <li><strong>CSE350 — Digital Electronics</strong>: combinational and sequential logic design, lab and lecture instruction.</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="exp-card">
-  <h2 id="open-source">Open Source</h2>
-
-  <div class="exp-entry">
-    <div class="exp-date"><span class="exp-pill">2024 – PRESENT</span></div>
-    <div class="exp-body">
-      <div class="exp-title">Coding Google's PaliGemma VLM from Scratch</div>
-      <div class="exp-meta"><i class="fa-brands fa-github"></i> <a href="https://github.com/shourovj">github.com/shourovj</a></div>
-      <ul>
-        <li>From-scratch implementation of the SigLip vision encoder, KV-cache, and GemmaLM with the multimodal projector.</li>
-        <li>Reference re-implementation inspired by Umair Jamil's open-source PaliGemma project.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="exp-entry">
-    <div class="exp-date"><span class="exp-pill">ONGOING</span></div>
-    <div class="exp-body">
-      <div class="exp-title">Public Research Code Releases</div>
-      <div class="exp-meta"><i class="fa-brands fa-github"></i> Autonomous-driving VLM reasoning, breast-cancer classification (VGGIN), audio-from-muted-video, voice-controlled wheelchair</div>
-      <ul>
-        <li>Open-source repositories tied to course projects and published papers.</li>
       </ul>
     </div>
   </div>
