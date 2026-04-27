@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Adjunct Lecturer, CSE at BRAC University | Machine Learning Engineer at ACI Ltd | Bangladesh
 
