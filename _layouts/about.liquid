@@ -67,35 +67,7 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="dropdown social-dropdown">
-          <button class="btn btn-sm btn-outline-primary dropdown-toggle" type="button" id="socialDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            links
-          </button>
-          <div class="dropdown-menu dropdown-menu-right social-dropdown-menu" aria-labelledby="socialDropdown">
-            {% if site.data.socials.email %}
-              <a class="dropdown-item" href="mailto:{{ site.data.socials.email }}"><i class="fas fa-envelope"></i><span>Email</span></a>
-            {% endif %}
-            {% if site.data.socials.github_username %}
-              <a class="dropdown-item" href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener"><i class="fab fa-github"></i><span>GitHub</span></a>
-            {% endif %}
-            {% if site.data.socials.linkedin_username %}
-              <a class="dropdown-item" href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
-            {% endif %}
-            {% if site.data.socials.scholar_userid %}
-              {% assign scholar_id = site.data.socials.scholar_userid | split: '&' | first %}
-              <a class="dropdown-item" href="https://scholar.google.com/citations?user={{ scholar_id }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i><span>Google Scholar</span></a>
-            {% endif %}
-            {% if site.data.socials.kaggle_id %}
-              <a class="dropdown-item" href="https://www.kaggle.com/{{ site.data.socials.kaggle_id }}" target="_blank" rel="noopener"><i class="fab fa-kaggle"></i><span>Kaggle</span></a>
-            {% endif %}
-            {% if site.data.socials.orcid_id %}
-              <a class="dropdown-item" href="https://orcid.org/{{ site.data.socials.orcid_id }}" target="_blank" rel="noopener"><i class="ai ai-orcid"></i><span>ORCID</span></a>
-            {% endif %}
-            {% if site.data.socials.cv_pdf %}
-              <a class="dropdown-item" href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i><span>CV</span></a>
-            {% endif %}
-          </div>
-        </div>
+        <div class="contact-icons">{% social_links %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
