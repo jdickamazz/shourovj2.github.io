@@ -142,12 +142,12 @@
     }
 
     a:hover {
-      background-color: rgba(214, 51, 132, 0.08);
+      background-color: var(--navbar-socials-accent-bg);
     }
 
     a:hover i,
     a:hover i::before {
-      color: #d63384;
+      color: var(--navbar-socials-accent);
     }
 
     img,
@@ -168,10 +168,10 @@
     }
 
     .navbar-socials-menu {
-      border: 1.5px solid #d63384;
+      border: 1.5px solid var(--navbar-socials-accent);
       border-radius: 0.5rem;
       padding: 0.5rem 0.6rem;
-      box-shadow: 0 4px 18px rgba(214, 51, 132, 0.15);
+      box-shadow: 0 4px 18px var(--navbar-socials-accent-shadow);
       background: var(--global-bg-color, #fff);
       min-width: auto;
     }
