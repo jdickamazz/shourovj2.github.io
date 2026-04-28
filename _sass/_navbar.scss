@@ -122,14 +122,16 @@
   .navbar-socials {
     display: inline-flex;
     align-items: center;
-    padding: 0 0.15rem;
-    gap: 0.05rem;
+    flex-wrap: wrap;
+    gap: 0.25rem;
 
     a {
-      padding: 0 0.05rem;
+      padding: 0.25rem 0.4rem;
       line-height: 1;
       display: inline-flex;
       align-items: center;
+      border-radius: 0.3rem;
+      transition: background-color 0.15s ease-in-out;
     }
 
     i,
@@ -139,15 +141,39 @@
       transition: color 0.2s ease-in-out;
     }
 
+    a:hover {
+      background-color: rgba(214, 51, 132, 0.08);
+    }
+
     a:hover i,
     a:hover i::before {
-      color: var(--global-theme-color);
+      color: #d63384;
     }
 
     img,
     svg {
       width: 1.2rem;
       height: 1.2rem;
+    }
+  }
+
+  // Pink-bordered dropdown that holds the social icons
+  .navbar-socials-dropdown {
+    .dropdown-toggle::after {
+      display: none; // hide the default caret
+    }
+
+    .nav-link i {
+      font-size: 1.05rem;
+    }
+
+    .navbar-socials-menu {
+      border: 1.5px solid #d63384;
+      border-radius: 0.5rem;
+      padding: 0.5rem 0.6rem;
+      box-shadow: 0 4px 18px rgba(214, 51, 132, 0.15);
+      background: var(--global-bg-color, #fff);
+      min-width: auto;
     }
   }
 }
