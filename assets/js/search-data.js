@@ -155,20 +155,6 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=wQsEs6YAAAAJ&hl=en", "_blank");
         },
       },{
-        id: 'social-kaggle',
-        title: 'Kaggle',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.kaggle.com/shourovj", "_blank");
-        },
-      },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0009-0005-7105-4035", "_blank");
-        },
-      },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
